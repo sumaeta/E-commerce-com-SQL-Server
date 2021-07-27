@@ -1,4 +1,7 @@
-# SQL-Server
+# E-Commerce com SQL-Server
+
+## O que é o SQL Server
+//explicar aqui
 
 ## Tabelas
 create table Produtos(
@@ -16,8 +19,7 @@ create table Cliente (
 	TipoPessoa char(1)
 )
 
-create table Pedido 
-(
+create table Pedido (
 
 	Codigo int not null,
 	DataSolicitacao datetime not null,
@@ -27,8 +29,7 @@ create table Pedido
 
 )
 
-create table PedidoItem
-(
+create table PedidoItem (
 
 	CodigoPedido int not null,
 	CodigoProduto int not null,
